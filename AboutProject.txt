@@ -1,0 +1,12 @@
+this project is created using angular 16
+
+project is of CRUD operations
+
+bootstraps is used for UI
+
+json-server used for json data 
+
+
+tutorial link is 
+
+https://www.youtube.com/watch?v=_ykQB73cLaE&t=2s
