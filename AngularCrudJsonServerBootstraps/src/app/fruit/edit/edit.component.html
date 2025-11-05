@@ -1,0 +1,20 @@
+<div class="container">
+    <legend >Edit Items</legend>
+     <form action="">
+        <div class="mb-3">
+            <label for="txtName" class="form-label">Name</label>
+            <input type="text" name="name" [(ngModel)]="formdata.name" id="txtName" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="txtPrice" class="form-label">Price</label>
+            <input type="text" name="price" [(ngModel)]="formdata.price"  class="form-control" id="txtPrice">
+        </div>  
+        <div class="mb-3">
+            <label for="quantity" class="form-label">Quantity</label>
+            <input type="text" name="Quantity" [(ngModel)]="formdata.quantity"  id="quantity" class="form-control">
+        </div>
+        
+        <button class="btn btn-primary" (click)="update()" type="button" >Update</button>
+     </form>
+</div>
+
